@@ -13,7 +13,8 @@
         header {
             background: url('https://via.placeholder.com/1920x500.png?text=IT+Innovation') no-repeat center center;
             background-size: cover;
-            color: black; /* Change text color to black */
+            color: white; /* Text color for the Welcome section */
+            background-color: #343a40; /* Same as footer color */
         }
         .jumbotron {
             background-color: transparent;
@@ -24,8 +25,19 @@
             border: 5px solid #fff;
         }
         footer {
-            background-color: #343a40;
+            background-color: #343a40; /* Footer background color */
             color: white;
+        }
+        .btn-linkedin {
+            background-color: #0077b5; /* LinkedIn blue */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn-linkedin:hover {
+            background-color: #005b8d; /* Darker blue on hover */
         }
     </style>
 </head>
@@ -57,9 +69,11 @@
 
     <!-- Hero Section -->
     <header class="jumbotron text-center">
-        <h1 class="display-4">Welcome to My Personal Website!</h1> <!-- Text color changed to black -->
+        <h1 class="display-4">Welcome to My Personal Website!</h1> 
         <hr class="my-4">
         <p>Explore my work, projects, and feel free to connect with me!</p>
+        <!-- LinkedIn Connect Button -->
+        <a href="https://www.linkedin.com/in/carllyn-barfi-451413285/" class="btn-linkedin" target="_blank">Connect on LinkedIn</a>
     </header>
 
     <!-- About Me Section -->
