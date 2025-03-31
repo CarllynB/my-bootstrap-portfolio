@@ -1,0 +1,41 @@
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+header {
+    padding: 100px 0;
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Section spacing */
+section {
+    padding: 80px 0;
+}
+
+/* Custom button styling */
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/* Navbar brand (your name) styling */
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Footer styling */
+footer {
+    font-size: 14px;
+}
