@@ -1,135 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carllyn's Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carllyn Barfi's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x500.png?text=IT+Innovation') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .jumbotron {
+            background-color: transparent;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+        .about-me img {
+            border: 5px solid #fff;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Carllyn Barfi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header id="home" class="bg-light py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold">Hello, I'm Carllyn Barfi</h1>
-                    <p class="lead">Aspiring Cloud Architect | IT & Security Enthusiast</p>
-                    <p class="mb-4">Passionate about leveraging cloud computing, cybersecurity, and IT infrastructure to create secure and scalable solutions.</p>
-                    <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
-                </div>
-                <div class="col-lg-6">
-                    <img src="img/profile.jpg" alt="Carllyn Barfi" class="img-fluid rounded">
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Carllyn Barfi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="mb-4">About Me</h2>
-                    <p class="lead">I'm an IT student at the University of North Texas, focusing on cloud computing, cybersecurity, and networking. As an Ericsson Scholarship recipient, I am dedicated to excellence in technology.</p>
-                    <p>With hands-on experience in Python and C++, I build solutions that enhance security, performance, and scalability. I aim to influence more women in STEM while solving real-world tech challenges.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Hero Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Personal Website!</h1>
+        <p class="lead">I'm Carllyn Barfi, an aspiring Cloud Architect and IT student passionate about cybersecurity, cloud computing, and IT innovation.</p>
+        <hr class="my-4">
+        <p>Explore my work, projects, and feel free to connect with me!</p>
+    </header>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">My Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <img src="img/project1.jpg" class="card-img-top" alt="City Growth Simulation">
-                        <div class="card-body">
-                            <h5 class="card-title">City Growth Simulation</h5>
-                            <p class="card-text">A C++ simulation modeling city expansion, disaster impact (tornadoes), and pollution control. Designed to help urban planners strategize recovery efforts.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100">
-                        <img src="img/project2.jpg" class="card-img-top" alt="Network Security Scanner">
-                        <div class="card-body">
-                            <h5 class="card-title">Network Security Scanner</h5>
-                            <p class="card-text">A Python-based tool for scanning network vulnerabilities and improving security posture. Focuses on detecting weak configurations and outdated protocols.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- About Me Section -->
+    <section class="container text-center my-5 about-me">
+        <h2>About Me</h2>
+        <p>I am an aspiring Cloud Architect currently pursuing a degree in Information Technology at the University of North Texas. I am passionate about cybersecurity, cloud computing, and IT infrastructure and strive to inspire the next generation of women in technology.</p>
+        <img src="images/profile.jpg" alt="Carllyn Barfi" class="img-fluid rounded-circle" style="width: 200px;">
+    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="mb-4">Contact Me</h2>
-                    <p class="lead">Want to discuss cloud solutions or security strategies? Let's connect!</p>
-                    <p>Email: carllynbarfi@icloud.com</p>
-                    <div class="mt-4">
-                        <a href="https://github.com/CarllynB" class="mx-2"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="https://linkedin.com/in/carllynbarfi" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Portfolio Section (Example) -->
+    <section class="container text-center my-5">
+        <h2>Portfolio</h2>
+        <p>Here are a few of my recent projects:</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Project+1" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">A brief description of what this project involves.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Project+2" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">A brief description of this project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Project+3" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">An overview of the third project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Footer -->
-    <footer class="py-4 bg-dark text-white">
-        <div class="container text-center">
-            <p>© 2025 Carllyn Barfi. All rights reserved.</p>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <footer class="py-4">
+        <p>&copy; 2025 Carllyn Barfi | All Rights Reserved</p>
+    </footer>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
-
