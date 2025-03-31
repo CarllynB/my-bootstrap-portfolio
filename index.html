@@ -1,132 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carllyn Barfi's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Custom Styles */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        header {
-            background-color: #343a40; /* Black background */
-            color: white; /* White text */
-            padding-top: 150px;
-            padding-bottom: 150px;
-            text-align: center;
-        }
-        .jumbotron {
-            background-color: transparent;
-        }
-        .about-me img {
-            border: 5px solid #fff;
-        }
-        footer {
-            background-color: #343a40; /* Footer background color */
-            color: white;
-        }
-        .btn-linkedin {
-            background-color: #0077b5; /* LinkedIn blue */
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .btn-linkedin:hover {
-            background-color: #005b8d; /* Darker blue on hover */
-        }
-    </style>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carllyn Barfi's Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            /* Custom Styles */
+            body {
+                font-family: Arial, sans-serif;
+            }
+            header {
+                background-color: #343a40; /* Black background */
+                color: white; /* White text */
+                padding-top: 150px;
+                padding-bottom: 150px;
+                text-align: center;
+            }
+            .jumbotron {
+                background-color: transparent;
+            }
+            .about-me img {
+                border: 5px solid #fff;
+            }
+            footer {
+                background-color: #343a40; /* Footer background color */
+                color: white;
+            }
+            .btn-linkedin {
+                background-color: #0077b5; /* LinkedIn blue */
+                color: white;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            .btn-linkedin:hover {
+                background-color: #005b8d; /* Darker blue on hover */
+            }
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Carllyn Barfi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            /* Make the specific header text black */
+            .header-text {
+                color: black; /* Black text color */
+            }
+        </style>
+    </head>
+    <body>
 
-    <!-- Hero Section -->
-    <header class="jumbotron text-center">
-        <h1 class="display-4">Welcome to My Personal Website!</h1> 
-        <hr class="my-4">
-        <p>Explore my work, projects, and feel free to connect with me!</p>
-        <!-- LinkedIn Connect Button -->
-        <a href="https://www.linkedin.com/in/carllyn-barfi-451413285/" class="btn-linkedin" target="_blank">Connect on LinkedIn</a>
-    </header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Carllyn Barfi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- About Me Section -->
-    <section class="container text-center my-5 about-me">
-        <h2>About Me</h2>
-        <p>I am an aspiring Cloud Architect, focused on cybersecurity, networking, and cloud solutions to solve complex challenges in the tech industry. Passionate about inspiring the next generation of women in tech, especially from my home country, Ghana.</p>
-        <img src="img/profile.jpg" alt="Carllyn Barfi" class="img-fluid rounded-circle" style="width: 200px;">
-    </section>
+        <!-- Hero Section -->
+        <header class="jumbotron text-center">
+            <h1 class="display-4 header-text">Welcome to My Personal Website!</h1>
+            <hr class="my-4">
+            <p>Explore my work, projects, and feel free to connect with me!</p>
+            <!-- LinkedIn Connect Button -->
+            <a href="https://www.linkedin.com/in/carllyn-barfi-451413285/" class="btn-linkedin" target="_blank">Connect on LinkedIn</a>
+        </header>
 
-    <!-- Portfolio Section (Example) -->
-    <section class="container text-center my-5">
-        <h2>Portfolio</h2>
-        <p>Here are a few of my recent projects:</p>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/untdpicon.jpg" class="card-img-top" alt="UNT Discovery Park Map App">
-                    <div class="card-body">
-                        <h5 class="card-title">UNT Discovery Park Map App</h5>
-                        <p class="card-text">Designed and developed an Android navigation application for UNT's Discovery Park campus to help students, faculty, and visitors navigate the engineering building. The app includes an interactive campus map with floor-switching functionality, route navigation, and personalized class schedule management.</p>
-                        <ul>
-                            <li><strong>Tech Stack:</strong> Java, Android SDK, SQLite, XML, GitHub</li>
-                            <li><strong>GitHub:</strong> <a href="https://github.com/CarllynB/discovery-park-application" target="_blank">View on GitHub</a></li>
-                        </ul>
+        <!-- About Me Section -->
+        <section class="container text-center my-5 about-me">
+            <h2>About Me</h2>
+            <p>I am an aspiring Cloud Architect, focused on cybersecurity, networking, and cloud solutions to solve complex challenges in the tech industry. Passionate about inspiring the next generation of women in tech, especially from my home country, Ghana.</p>
+            <img src="img/profile.jpg" alt="Carllyn Barfi" class="img-fluid rounded-circle" style="width: 200px;">
+        </section>
+
+        <!-- Portfolio Section (Example) -->
+        <section class="container text-center my-5">
+            <h2>Portfolio</h2>
+            <p>Here are a few of my recent projects:</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/untdpicon.jpg" class="card-img-top" alt="UNT Discovery Park Map App">
+                        <div class="card-body">
+                            <h5 class="card-title">UNT Discovery Park Map App</h5>
+                            <p class="card-text">Designed and developed an Android navigation application for UNT's Discovery Park campus to help students, faculty, and visitors navigate the engineering building. The app includes an interactive campus map with floor-switching functionality, route navigation, and personalized class schedule management.</p>
+                            <ul>
+                                <li><strong>Tech Stack:</strong> Java, Android SDK, SQLite, XML, GitHub</li>
+                                <li><strong>GitHub:</strong> <a href="https://github.com/CarllynB/discovery-park-application" target="_blank">View on GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/SimCity.jpg" class="card-img-top" alt="SimCity Project">
+                        <div class="card-body">
+                            <h5 class="card-title">SimCity Project</h5>
+                            <p class="card-text">This project simulates city growth with residential, industrial, and commercial zones. It tracks pollution and other environmental factors, while incorporating disaster simulations, including tornadoes, and offering real-time disaster alerts and mitigation strategies. The project aims to create a dynamic, realistic city-building experience where growth, disaster, and recovery are interlinked.</p>
+                            <ul>
+                                <li><strong>Features:</strong> City expansion, pollution tracking, disaster simulations, real-time alerts</li>
+                                <li><strong>Tech Stack:</strong> C++, GitHub</li>
+                                <li><strong>GitHub:</strong> <a href="https://github.com/CarllynB/SimCityProject" target="_blank">View on GitHub</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/SimCity.jpg" class="card-img-top" alt="SimCity Project">
-                    <div class="card-body">
-                        <h5 class="card-title">SimCity Project</h5>
-                        <p class="card-text">This project simulates city growth with residential, industrial, and commercial zones. It tracks pollution and other environmental factors, while incorporating disaster simulations, including tornadoes, and offering real-time disaster alerts and mitigation strategies. The project aims to create a dynamic, realistic city-building experience where growth, disaster, and recovery are interlinked.</p>
-                        <ul>
-                            <li><strong>Features:</strong> City expansion, pollution tracking, disaster simulations, real-time alerts</li>
-                            <li><strong>Tech Stack:</strong> C++, GitHub</li>
-                            <li><strong>GitHub:</strong> <a href="https://github.com/CarllynB/SimCityProject" target="_blank">View on GitHub</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- Footer -->
+        <footer class="py-4">
+            <p>&copy; 2025 Carllyn Barfi | All Rights Reserved</p>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="py-4">
-        <p>&copy; 2025 Carllyn Barfi | All Rights Reserved</p>
-    </footer>
-
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-</body>
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    </body>
 </html>
 
